@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Products</title>
+{% endblock %}
+
+{% block body %}
+
+{% if result %}
+    <table id="employees" style="width:100%">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            {% for row in result %}
+            <tr>
+                <td>{{ row.productName }}</td>
+                <td>{{ row.price }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
+
+
+{% endblock %}

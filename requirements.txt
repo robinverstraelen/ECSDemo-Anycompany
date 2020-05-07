@@ -1,0 +1,7 @@
+Flask
+Flask-MySQL
+Flask-SQLAlchemy
+pymysql
+boto3
+botocore
+mysql.connector
