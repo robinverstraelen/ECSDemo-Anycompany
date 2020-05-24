@@ -26,7 +26,7 @@ As they add new features and onboard additional developers, the AnyCompany team 
 
 ## Proposed architecture
 
-![architecture](images/architecture.png)
+![architecture](images/architecture_new.png)
 
 ## The demo
 
